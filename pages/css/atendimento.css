@@ -1,0 +1,44 @@
+.tabela-atendimento {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-atendimento h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e3f2fd;
+}
+
+.observacao {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 10px;
+  font-style: italic;
+}
